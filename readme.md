@@ -1,9 +1,8 @@
 # Pub Quiz
-Beschrijving
+
+Pub Quiz side project, FHICT Semester 6
 
 ## Next steps
-- Tailwind config/foldernamen fixen
-- Git opzetten
+
 - Datamodel quiz bedenken
   - Types, tabellen
-  
