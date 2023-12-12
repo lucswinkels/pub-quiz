@@ -1,6 +1,6 @@
-const getData = async () => {
-  const res = await fetch("http://localhost:3000/posts");
-  const data = await res.json().then((data) => console.log(data));
-};
+import { Question } from "./components/Question";
 
-getData();
+const data = { data: "data" };
+const question = new Question(data, document.querySelector("#app"), () => {});
+
+question.test();
